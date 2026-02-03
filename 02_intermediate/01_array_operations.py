@@ -13,6 +13,5 @@ print("Subtraction:", sub)
 print("Multiplication:", mul)
 print("Division:", div)
 
-# Combined operation
 result = (arr1 * 2) + (arr2 ** 2)
 print("Final Result:", result)
