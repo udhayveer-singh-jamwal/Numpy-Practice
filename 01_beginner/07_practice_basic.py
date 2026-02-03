@@ -6,8 +6,5 @@ print("Sum:", nums.sum())
 print("Max:", nums.max())
 print("Min:", nums.min())
 print("Mean:", nums.mean())
-
-# Even numbers
 even = nums[nums % 2 == 0]
 print("Even numbers:", even)
-
