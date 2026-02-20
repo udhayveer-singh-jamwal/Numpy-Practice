@@ -9,6 +9,10 @@ sales = np.array([
 
 monthly_total = sales.sum(axis=1)
 product_total = sales.sum(axis=0)
-
+best_month = np.argmax(monthly_total)
+best_product = np.argmax(product_total)
 print("Sales Data:\n", sales)
 print("Monthly Total:", monthly_total)
+print("Product Total:", product_total)
+print("Best Month Index:", best_month)
+print("Best Product Index:", best_product)
